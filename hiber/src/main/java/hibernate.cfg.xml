@@ -14,7 +14,9 @@
      <property name="hibernate.hbm2ddl.auto">update</property>
      <property name="show_sql">true</property>
  
-     <mapping class="learn.hiber.Student"/>
+     <mapping class="learn.annotation.Bike"/>
+     <mapping class="learn.annotation.Person"/>
+     
   
  </session-factory>
 </hibernate-configuration>
